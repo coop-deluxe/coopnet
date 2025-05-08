@@ -3,7 +3,7 @@ name: Build CoopNet
 on:
   workflow_dispatch:
   push:
-    branches: [ "dev" ]
+    branches: [ "master" ]
 
 jobs:
   build-linux:
